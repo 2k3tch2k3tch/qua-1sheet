@@ -65,7 +65,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" width="100%" height="100%" />
 					<Button
-						height="35px"
+						height="40px"
 						display="flex"
 						width="auto"
 						align-items="center"
@@ -75,9 +75,9 @@ export default (() => {
 						align-self="flex-end"
 						hover-background="--color-primary"
 						type="button"
-						border-radius="8px"
+						border-radius="5px"
 						font="normal 700 20px/1.0 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-						background="black"
+						background="black url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
 						lg-background="black url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
 						lg-border-radius="5px"
 						lg-height="40px"
@@ -100,7 +100,7 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" width="100%" height="100%" />
 					<Button
-						height="35px"
+						height="40px"
 						display="flex"
 						width="auto"
 						align-items="center"
@@ -110,9 +110,9 @@ export default (() => {
 						align-self="flex-end"
 						hover-background="--color-primary"
 						type="button"
-						border-radius="8px"
+						border-radius="5px"
 						font="normal 700 20px/1.0 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-						background="black"
+						background="black url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
 						lg-background="black url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
 						lg-border-radius="5px"
 						lg-height="40px"
@@ -321,7 +321,7 @@ export default (() => {
 			padding="15px 0 15px 0"
 			box-sizing="border-box"
 			quarkly-title="Footer"
-			background="#000"
+			background="#000 url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
 			justify-content="center"
 			lg-background="#000 url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
 		>
@@ -510,6 +510,7 @@ export default (() => {
 						align-items="center"
 						justify-content="flex-start"
 						align-self="auto"
+						margin="0px 0 0px 0px"
 					/>
 					<Link
 						href="https://quarkly.io/"
@@ -518,7 +519,7 @@ export default (() => {
 						opacity="0.6"
 						text-decoration-line="initial"
 						text-align="left"
-						margin="0 0px 0px 10px"
+						margin="0 0px 0px 30px"
 						hover-text-decoration-line="underline"
 						white-space="nowrap"
 					>
