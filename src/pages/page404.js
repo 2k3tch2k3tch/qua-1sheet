@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text } from "@quarkly/widgets";
+import { Theme, Link, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, StackItem, Stack, Section } from "@quarkly/components";
 export default (() => {
@@ -19,7 +19,7 @@ export default (() => {
 			height="100%"
 			min-width="100%"
 			min-height="1000px"
-			background="url(https://images.unsplash.com/photo-1605025175565-a2937cf2e7aa?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0MjIzN30&w=2000) 0% 0%/cover,black"
+			background="url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_241551909.jpg?v=2020-11-16T11:52:16.260Z) 50% 50%/cover,black"
 			align-items="center"
 			justify-content="center"
 			sm-min-height="none"
@@ -69,31 +69,7 @@ export default (() => {
 						min-height="100%"
 					/>
 					{"        "}
-					<Text
-						color="--light"
-						font="--headline1"
-						margin="30px 15px 30px 15px"
-						sm-text-align="center"
-						sm-width="80%"
-						text-align="center"
-						padding="0px 0 0px 0"
-					>
-						Title Page
-					</Text>
-					<Link
-						href="/"
-						text-decoration-line="initial"
-						color="--dark"
-						background="--color-light"
-						padding="15px 30px 15px 30px"
-						font="--base"
-						letter-spacing="0.5px"
-						hover-transform="translateY(-4px)"
-						transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-						margin="10px 10px 10px 10px"
-					>
-						Home Page
-					</Link>
+					<Image width="300px" height="auto" src="https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/cisco.png?v=2020-11-16T11:10:17.770Z" />
 					{"    "}
 				</StackItem>
 				{"    "}
