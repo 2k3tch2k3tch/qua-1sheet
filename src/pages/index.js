@@ -211,7 +211,16 @@ export default (() => {
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				<br />
 			</Text>
-			<Hr />
+			<Hr
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				margin="10px 0 10px 0"
+				padding="0px 0px 5px 0px"
+				width="95%"
+				height="1px"
+				border-color="transparent"
+			/>
 			<Text
 				font="--base"
 				margin="0px 0px 0px 0px"
@@ -264,7 +273,16 @@ export default (() => {
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				<br />
 			</Text>
-			<Hr />
+			<Hr
+				display="flex"
+				align-items="center"
+				justify-content="center"
+				margin="10px 0 10px 0"
+				padding="0px 0px 5px 0px"
+				height="1px"
+				width="95%"
+				border-color="transparent"
+			/>
 			<Text
 				font="--base"
 				margin="0px 0px 0px 0px"
