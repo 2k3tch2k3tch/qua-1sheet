@@ -333,6 +333,7 @@ export default (() => {
 				min-width="auto"
 				justify-content="center"
 				align-items="center"
+				md-height="140px"
 			/>
 			<Stack
 				width="100%"
@@ -342,12 +343,13 @@ export default (() => {
 				align-items="center"
 				justify-content="center"
 				sm-height="175px"
+				md-height="175px"
 			>
 				{"    "}
 				<StackItem
 					quarkly-title="Side"
 					width="45%"
-					md-width="50%"
+					md-width="90%"
 					align-self="flex-start"
 					padding="0px 0px 0px 0px"
 					display="flex"
@@ -402,7 +404,7 @@ export default (() => {
 				<StackItem
 					quarkly-title="Side"
 					width="45%"
-					md-width="50%"
+					md-width="90%"
 					align-self="flex-start"
 					padding="0px 0px 0px 0px"
 					display="flex"
