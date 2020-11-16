@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Image } from "@quarkly/widgets";
+import { Theme, Link, Button, Strong, Text, Hr, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { Override, StackItem, Stack, Section, SocialMedia } from "@quarkly/components";
 export default (() => {
@@ -64,6 +64,29 @@ export default (() => {
 					sm-height="50%"
 				>
 					<Override slot="StackItemContent" width="100%" height="100%" />
+					<Button
+						height="35px"
+						display="flex"
+						width="auto"
+						align-items="center"
+						justify-content="center"
+						padding="10px 20px 10px 20px"
+						margin="0px 0 0px 0"
+						align-self="flex-end"
+						hover-background="--color-primary"
+						type="button"
+						border-radius="8px"
+						font="normal 700 20px/1.0 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						background="black"
+						lg-background="black url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
+						lg-border-radius="5px"
+						lg-height="40px"
+					>
+						Name Name
+						<div>
+							<br />
+						</div>
+					</Button>
 					{"        "}{"    "}
 				</StackItem>
 				<StackItem
@@ -76,6 +99,29 @@ export default (() => {
 					sm-height="50%"
 				>
 					<Override slot="StackItemContent" width="100%" height="100%" />
+					<Button
+						height="35px"
+						display="flex"
+						width="auto"
+						align-items="center"
+						justify-content="center"
+						padding="10px 20px 10px 20px"
+						margin="0px 0 0px 0"
+						align-self="flex-end"
+						hover-background="--color-primary"
+						type="button"
+						border-radius="8px"
+						font="normal 700 20px/1.0 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
+						background="black"
+						lg-background="black url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
+						lg-border-radius="5px"
+						lg-height="40px"
+					>
+						Name Name
+						<div>
+							<br />
+						</div>
+					</Button>
 					{"        "}{"    "}
 				</StackItem>
 				{"    "}
@@ -163,7 +209,9 @@ export default (() => {
 				xl-width="100%"
 			>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<br />
 			</Text>
+			<Hr />
 			<Text
 				font="--base"
 				margin="0px 0px 0px 0px"
@@ -214,7 +262,9 @@ export default (() => {
 				xl-width="100%"
 			>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<br />
 			</Text>
+			<Hr />
 			<Text
 				font="--base"
 				margin="0px 0px 0px 0px"
@@ -273,6 +323,155 @@ export default (() => {
 			quarkly-title="Footer"
 			background="#000"
 			justify-content="center"
+			lg-background="#000 url(https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/AdobeStock_192277647.jpg?v=2020-11-16T11:35:54.994Z) 50% 50%/cover"
+		>
+			<Override
+				slot="SectionContent"
+				width="100%"
+				margin="0px 0px 0px 0px"
+				md-margin="0px 16px 0px 16px"
+				min-width="auto"
+				justify-content="center"
+				align-items="center"
+			/>
+			<Stack
+				width="100%"
+				margin="0px 0px 0px 0px"
+				height="70px"
+				align-self="center"
+				align-items="center"
+				justify-content="center"
+				sm-height="175px"
+			>
+				{"    "}
+				<StackItem
+					quarkly-title="Side"
+					width="45%"
+					md-width="50%"
+					align-self="flex-start"
+					padding="0px 0px 0px 0px"
+					display="flex"
+					height="70px"
+					justify-content="left"
+					align-items="flex-start"
+					sm-width="90%"
+				>
+					<Override
+						slot="StackItemContent"
+						justify-content="center"
+						width="100%"
+						align-items="center"
+						height="100%"
+					/>
+					<Text
+						width="auto"
+						height="25px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						color="#ffffff"
+						font="20px "
+						margin="0 0px 0 0px"
+					>
+						<Strong font="18px ">
+							Follow The Artist
+						</Strong>
+					</Text>
+					<SocialMedia
+						facebook="https://www.facebook.com/quarklyapp/"
+						twitter="https://twitter.com/quarklyapp"
+						youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
+						height="50px"
+						width="160px"
+						justify-content="flex-end"
+						align-items="center"
+						align-self="center"
+					>
+						<Override
+							slot="link"
+							background="none"
+							border-radius="50%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+						/>
+						<Override slot="icon" color="--light" />
+					</SocialMedia>
+					{"   "}
+				</StackItem>
+				<StackItem
+					quarkly-title="Side"
+					width="45%"
+					md-width="50%"
+					align-self="flex-start"
+					padding="0px 0px 0px 0px"
+					display="flex"
+					height="70px"
+					justify-content="left"
+					align-items="flex-start"
+					sm-width="90%"
+				>
+					<Override
+						slot="StackItemContent"
+						justify-content="center"
+						width="100%"
+						align-items="center"
+						height="100%"
+					/>
+					<Text
+						width="auto"
+						height="25px"
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						color="#ffffff"
+						font="20px "
+						margin="0 0px 0 0px"
+					>
+						<Strong
+							font="18px "
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Follow The Artist
+						</Strong>
+					</Text>
+					<SocialMedia
+						facebook="https://www.facebook.com/quarklyapp/"
+						twitter="https://twitter.com/quarklyapp"
+						youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
+						height="50px"
+						width="160px"
+						justify-content="flex-end"
+						align-items="center"
+						align-self="center"
+					>
+						<Override
+							slot="link"
+							background="none"
+							border-radius="50%"
+							display="flex"
+							align-items="center"
+							justify-content="center"
+						/>
+						<Override slot="icon" color="--light" />
+					</SocialMedia>
+					{"   "}
+				</StackItem>
+				{"    "}
+			</Stack>
+		</Section>
+		<Section
+			margin="0 0 0 0"
+			padding="15px 0 15px 0"
+			box-sizing="border-box"
+			quarkly-title="Footer"
+			background="#000"
+			justify-content="center"
 		>
 			<Override
 				slot="SectionContent"
@@ -304,9 +503,9 @@ export default (() => {
 				>
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" width="90%" />
 					<Image
-						width="28px"
-						height="50px"
-						src="https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-quarkly-logo-grey.svg?v=2020-11-06T17:24:35.270Z"
+						width="auto"
+						height="60px"
+						src="https://uploads.quarkly.io/5fac60bf2c4ef2001e3238d6/images/cisco.png?v=2020-11-16T11:10:17.770Z"
 						display="flex"
 						align-items="center"
 						justify-content="flex-start"
